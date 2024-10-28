@@ -1,0 +1,885 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BBS e-Franchise\n"
+"POT-Creation-Date: 2017-08-11 14:51+0900\n"
+"PO-Revision-Date: 2017-08-11 14:51+0900\n"
+"Last-Translator: BBS e-Theme <dev17@nayana.com>\n"
+"Language-Team: BBS e-Theme <dev17@nayana.com>\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/franchise_list.php:92 admin/franchise_list.php:134
+#: lib/franchise.class.php:220
+msgid "List of branches"
+msgstr "지점목록"
+
+#: admin/franchise_list.php:92 admin/franchise_manage_branches.php:33
+#: lib/franchise.class.php:221
+msgid "Add branch"
+msgstr "새로운 지점 추가"
+
+#: admin/franchise_list.php:95
+msgid "Listing filter "
+msgstr "목록 필터"
+
+#: admin/franchise_list.php:97
+msgid "Total branches"
+msgstr "전체 지점"
+
+#: admin/franchise_list.php:104 admin/franchise_list.php:209
+msgid "Bulk actions"
+msgstr "일괄작업"
+
+#: admin/franchise_list.php:105 admin/franchise_list.php:175
+#: admin/franchise_list.php:210
+msgid "Visible/Hide"
+msgstr "보이김/숨기기"
+
+#: admin/franchise_list.php:106 admin/franchise_list.php:176
+#: admin/franchise_list.php:211
+msgid "Delete"
+msgstr "삭제"
+
+#: admin/franchise_list.php:108 admin/franchise_list.php:213
+msgid "Apply"
+msgstr "적용"
+
+#: admin/franchise_list.php:117 templates/blue/list.php:84
+#: templates/default/list.php:84
+msgid "Search"
+msgstr "검색"
+
+#: admin/franchise_list.php:121
+msgid "Show only 'visible'"
+msgstr "'보이기'만 보여주기"
+
+#: admin/franchise_list.php:122
+msgid "Show only 'hide'"
+msgstr "'숨기기'만 보여주기"
+
+#: admin/franchise_list.php:123
+msgid "Show all"
+msgstr "모두보기"
+
+#: admin/franchise_list.php:148 admin/franchise_list.php:193
+msgid "Select all"
+msgstr "전체선택"
+
+#: admin/franchise_list.php:150 admin/franchise_list.php:195
+msgid "Status"
+msgstr "상태"
+
+#: admin/franchise_list.php:151 admin/franchise_list.php:196
+#: admin/franchise_manage_branches.php:59 admin/franchise_manage_plugin.php:86
+#: templates/blue/list.php:61 templates/blue/list.php:129
+#: templates/default/list.php:61 templates/default/list.php:129
+msgid "Category"
+msgstr "카테고리"
+
+#: admin/franchise_list.php:152 admin/franchise_list.php:197
+#: templates/blue/list.php:131 templates/default/list.php:131
+msgid "Name"
+msgstr "이름"
+
+#: admin/franchise_list.php:153 admin/franchise_list.php:198
+#: admin/franchise_manage_branches.php:75 templates/blue/list.php:132
+#: templates/blue/view.php:46 templates/default/list.php:132
+#: templates/default/view.php:46
+msgid "Address"
+msgstr "주소"
+
+#: admin/franchise_list.php:154 admin/franchise_list.php:199
+msgid "Phone(Mobile)"
+msgstr "전화번호(휴대번화번호)"
+
+#: admin/franchise_list.php:155 admin/franchise_list.php:200
+#: admin/franchise_manage_branches.php:106 templates/blue/list.php:134
+#: templates/blue/view.php:75 templates/default/list.php:134
+#: templates/default/view.php:75
+msgid "ETC."
+msgstr "비고"
+
+#: admin/franchise_list.php:165
+msgid "Toggle visible or hide"
+msgstr "보임/숨김 토글"
+
+#: admin/franchise_list.php:168 admin/franchise_list.php:171
+msgid "Edit"
+msgstr "편집"
+
+#: admin/franchise_list.php:173 admin/franchise_manage_plugin.php:46
+msgid "View page"
+msgstr "페이지보기"
+
+#: admin/franchise_list.php:178 templates/blue/list.php:195
+#: templates/default/list.php:195
+msgid "View detail"
+msgstr "자세히보기"
+
+#: admin/franchise_list.php:226 admin/franchise_manage_branches.php:133
+#: admin/franchise_manage_plugin.php:144
+msgid ""
+"* If the plug-in is working normally after the update, try <b> disable and "
+"re-enable </b> the plug-in."
+msgstr ""
+"* 업데이트 후 플러그인이 비정상적으로 동작하는 경우 플러그인을 비활성화 후 다"
+"시 활성화 해보세요."
+
+#: admin/franchise_manage_branches.php:30
+msgid "Modifying the branch"
+msgstr "지점 수정"
+
+#: admin/franchise_manage_branches.php:31
+msgid "Modify the branch settings."
+msgstr "지점 설정 내용을 수정합니다."
+
+#: admin/franchise_manage_branches.php:34
+msgid "Add a new branch."
+msgstr "새로운 지점을 추가합니다."
+
+#: admin/franchise_manage_branches.php:55
+msgid "Hide from list"
+msgstr "목록에서 감추기"
+
+#: admin/franchise_manage_branches.php:56
+msgid "If checked, hide from user page list."
+msgstr "체크하면 사용자 목록에서 보이지 않습니다."
+
+#: admin/franchise_manage_branches.php:62
+msgid "Select category"
+msgstr "카테고리 선택"
+
+#: admin/franchise_manage_branches.php:71 templates/blue/view.php:42
+#: templates/default/view.php:42
+msgid "Name of branch"
+msgstr "지점이름"
+
+#: admin/franchise_manage_branches.php:71
+#: admin/franchise_manage_branches.php:75 admin/franchise_manage_plugin.php:74
+msgid "Required"
+msgstr "필수"
+
+#: admin/franchise_manage_branches.php:77
+msgid "Click!"
+msgstr "클릭!"
+
+#: admin/franchise_manage_branches.php:90 templates/blue/list.php:133
+#: templates/default/list.php:133
+msgid "Phone number"
+msgstr "전화번호"
+
+#: admin/franchise_manage_branches.php:94
+msgid "Mobile phone number"
+msgstr "휴대전화번호"
+
+#: admin/franchise_manage_branches.php:98
+msgid "Faximile number"
+msgstr "팩스번호"
+
+#: admin/franchise_manage_branches.php:102
+msgid "eMail address"
+msgstr "이메일 주소"
+
+#: admin/franchise_manage_branches.php:128 templates/blue/view.php:111
+#: templates/default/view.php:111
+msgid "Back to list"
+msgstr "목록"
+
+#: admin/franchise_manage_branches.php:129
+#: admin/franchise_manage_plugin.php:141
+msgid "Save settings"
+msgstr "저장"
+
+#: admin/franchise_manage_branches.php:200
+msgid "Please enter the remaining address."
+msgstr "나머지 주소를 입력하세요."
+
+#: admin/franchise_manage_branches.php:209
+#: admin/franchise_manage_plugin.php:174
+msgid "Do you want to save the settings?"
+msgstr "설정을 저장 하시겠습니까?"
+
+#: admin/franchise_manage_branches.php:211
+#: admin/franchise_manage_plugin.php:175
+msgid "Save failure"
+msgstr "저장실패"
+
+#: admin/franchise_manage_branches.php:246
+#: admin/franchise_manage_plugin.php:201
+#: admin/franchise_manage_plugin_data.php:128
+#: admin/franchise_manage_plugin_data.php:163
+msgid "No authority"
+msgstr "권한없음"
+
+#: admin/franchise_manage_branches.php:250
+msgid "You haven't set any categories."
+msgstr "카테고리 설정해야합니다."
+
+#: admin/franchise_manage_branches.php:254
+msgid "You haven't set a branch name."
+msgstr "지점 이름을 설정해야합니다."
+
+#: admin/franchise_manage_branches.php:258
+#: admin/franchise_manage_branches.php:262
+msgid "You haven't set an address."
+msgstr "주소를 설정 해야합니다."
+
+#: admin/franchise_manage_branches.php:266
+msgid "Invalid phone number."
+msgstr "잘못된 전화번호입니다."
+
+#: admin/franchise_manage_branches.php:270
+msgid "You haven't set a phone number."
+msgstr "전화번호를 설정해야합니다."
+
+#: admin/franchise_manage_branches.php:273
+msgid "Invalid mobile phone number."
+msgstr "잘못된 휴대전화번호입니다."
+
+#: admin/franchise_manage_branches.php:277
+msgid "Invalid fax number."
+msgstr "잘못된 팩스전화번호입니다."
+
+#: admin/franchise_manage_branches.php:281
+msgid "Invalid email address."
+msgstr "잘못된 이메일 주소입니다."
+
+#: admin/franchise_manage_branches.php:285
+msgid "You haven't entered any content."
+msgstr "컨텐츠를 입력해야합니다."
+
+#: admin/franchise_manage_branches.php:288
+#: admin/franchise_manage_plugin.php:214
+msgid "You haven't set up the Daum map API."
+msgstr "다음지도API를 설정해야합니다."
+
+#: admin/franchise_manage_branches.php:292
+#: admin/franchise_manage_plugin.php:218
+msgid "Save success"
+msgstr "저장성공"
+
+#: admin/franchise_manage_branches.php:295
+#: admin/franchise_manage_plugin.php:220
+msgid "Does not save - same data"
+msgstr "저장안함 - 동일 내용"
+
+#: admin/franchise_manage_branches.php:314
+msgid "Plug-in preferences are required."
+msgstr "플러그인 설정이 필요합니다."
+
+#: admin/franchise_manage_plugin.php:11 lib/franchise.class.php:222
+msgid "Preferences"
+msgstr "플러그인 설정"
+
+#: admin/franchise_manage_plugin.php:13
+msgid "Set up the plug-in."
+msgstr "플러그인을 설정합니다."
+
+#: admin/franchise_manage_plugin.php:21
+msgid "shortcode"
+msgstr "숏코드"
+
+#: admin/franchise_manage_plugin.php:24
+msgid "Copy to clipboard"
+msgstr "클립보드로 복사"
+
+#: admin/franchise_manage_plugin.php:25
+msgid "Copy the shortcode and insert it into the desired \"page\"."
+msgstr "먼저 숏코드를 복사해 원하는 '페이지'에 삽입하세요."
+
+#: admin/franchise_manage_plugin.php:30
+msgid "page ID where the shortcode was inserted"
+msgstr "숏코드 삽입 페이지ID"
+
+#: admin/franchise_manage_plugin.php:33
+msgid "Select shortcode inserted page"
+msgstr "숏코드 페이지 선택"
+
+#: admin/franchise_manage_plugin.php:48
+msgid "Select the page where the shortcode is inserted."
+msgstr "숏코드가 삽입된 페이지를 선택합니다."
+
+#: admin/franchise_manage_plugin.php:53
+msgid "List title"
+msgstr "목록 제목"
+
+#: admin/franchise_manage_plugin.php:54 admin/franchise_manage_plugin.php:55
+msgid "The title to be displayed in the search part of the list page."
+msgstr "목록페이지의 검색 부분에 출력할 제목입니다."
+
+#: admin/franchise_manage_plugin.php:60
+msgid "List text"
+msgstr "목록 문구"
+
+#: admin/franchise_manage_plugin.php:61 admin/franchise_manage_plugin.php:62
+msgid ""
+"It is a simple descriptive phrase to be displayed in the search part of the "
+"list page."
+msgstr "목록 페이지의 검색 부분에 표시되는 간단한 설명 문구입니다."
+
+#: admin/franchise_manage_plugin.php:67
+msgid "Map navigation from the list"
+msgstr "목록 지도메뉴"
+
+#: admin/franchise_manage_plugin.php:69
+msgid "Use map navigation from the list."
+msgstr "목록에서 지도 네비게이션을 사용합니다."
+
+#: admin/franchise_manage_plugin.php:74
+msgid "Use skin template"
+msgstr "사용스킨"
+
+#: admin/franchise_manage_plugin.php:77
+msgid "Select skin template"
+msgstr "사용스킨 선택"
+
+#: admin/franchise_manage_plugin.php:88
+msgid "Enter ',' separated by. Only one duplicate entered value is stored."
+msgstr "',' 로 구분하여 입력합니다. 중복 입력된 값은 하나만 저장됩니다."
+
+#: admin/franchise_manage_plugin.php:93
+msgid "Number of listings per page"
+msgstr "페이지당 목록수"
+
+#: admin/franchise_manage_plugin.php:95
+msgid ""
+"If it is not set at the initial setting, WordPress setting value is used."
+msgstr "최초설정시 설정하지 않으면 워드프레스 설정값을 사용합니다."
+
+#: admin/franchise_manage_plugin.php:100
+msgid "Map API you want to use"
+msgstr "사용할 지도API"
+
+#: admin/franchise_manage_plugin.php:102
+msgid "Naver Map"
+msgstr "네이버지도"
+
+#: admin/franchise_manage_plugin.php:103
+msgid "Daum Map"
+msgstr "다음맵"
+
+#: admin/franchise_manage_plugin.php:104
+msgid "OFF"
+msgstr "사용안함"
+
+#: admin/franchise_manage_plugin.php:105
+msgid "If not selected at first time, it will be set to 'OFF'."
+msgstr "최초설정시 선택하지 않으면 '사용안함'으로 설정됩니다."
+
+#: admin/franchise_manage_plugin.php:110
+msgid "Naver Map API"
+msgstr "네이버지도 API"
+
+#: admin/franchise_manage_plugin.php:114
+msgid "You need to register your app to use the Map API."
+msgstr "Map API를 사용하려면 앱을 등록해야합니다."
+
+#: admin/franchise_manage_plugin.php:115
+msgid ""
+"In the application registration, set 'Non login open API' and 'Web service "
+"URL' to get ID and Secret."
+msgstr ""
+"애플리케이션 등록에서 '비로그인 오픈API', '웹서비스 URL'을 설정하여 ID와 "
+"Secret을 발급받으세요."
+
+#: admin/franchise_manage_plugin.php:116
+msgid ""
+"Please be sure to check the 'Non-Login Open API' - 'Map API' in the 'API "
+"Permission Management' tab after issuance."
+msgstr ""
+"발급 후 반드시 'API 권한관리' 탭에서 '비로그인 오픈 API' - '지도 API'를 체크 "
+"해주세요."
+
+#: admin/franchise_manage_plugin.php:121
+msgid "Daum Map API"
+msgstr "다음맵 API"
+
+#: admin/franchise_manage_plugin.php:125 admin/franchise_manage_plugin.php:134
+msgid ""
+"To use the Map API, you'll need to generate a key after creating your app."
+msgstr "Map API를 사용하려면 앱을 만든 후에 키를 생성해야합니다."
+
+#: admin/franchise_manage_plugin.php:125 admin/franchise_manage_plugin.php:134
+msgid "Get a key"
+msgstr "키 발급받기"
+
+#: admin/franchise_manage_plugin.php:126
+msgid "Developer registration and app creation"
+msgstr "개발자 등록 및 앱 생성"
+
+#: admin/franchise_manage_plugin.php:127
+msgid ""
+"Add web platform: Select application - [Settings] - [General] - [Add "
+"platform] - Select web and add"
+msgstr ""
+"웹 플랫폼 추가: 앱 선택 – [설정] – [일반] – [플랫폼 추가] – 웹 선택 후 추가"
+
+#: admin/franchise_manage_plugin.php:128
+msgid ""
+"Site domain registration: Select [Web] platform and register [Site domain]. "
+"(For example, http: // localhost: 8080)"
+msgstr ""
+"사이트 도메인 등록: [웹] 플랫폼을 선택하고, [사이트 도메인] 을 등록합니다. "
+"(예: http://localhost:8080)"
+
+#: admin/franchise_manage_plugin.php:129
+msgid ""
+"Use the [JavaScript Key] at the top of the page as the appkey for the Maps "
+"API."
+msgstr "페이지 상단의 [JavaScript 키]를 지도 API의 appkey로 사용합니다."
+
+#: admin/franchise_manage_plugin.php:135
+msgid ""
+"After creating the app, get the key for 'Web browser' or 'All platforms' in "
+"the 'REST / JS' item of the app."
+msgstr ""
+"앱생성 후 해당앱의 'REST/JS'항목의 '웹브라우저' 또는 '모든 플랫폼'용 키를 발"
+"급 받으십시오."
+
+#: admin/franchise_manage_plugin.php:158
+msgid "successful"
+msgstr "성공."
+
+#: admin/franchise_manage_plugin.php:158
+msgid "unsuccessful"
+msgstr "실패."
+
+#: admin/franchise_manage_plugin.php:159
+msgid "Copying text command was"
+msgstr "복사"
+
+#: admin/franchise_manage_plugin.php:161
+msgid "Unable to copy"
+msgstr "복사안됨"
+
+#: admin/franchise_manage_plugin.php:205 admin/franchise_manage_plugin.php:209
+msgid "You haven't set up the Naver map API."
+msgstr "네이버 맵 API를 설정하지 않았습니다"
+
+#: admin/franchise_manage_plugin_data.php:25 lib/franchise.class.php:223
+msgid "Data management"
+msgstr "플러그인 데이터 관리"
+
+#: admin/franchise_manage_plugin_data.php:28
+msgid "Backup or restore plug-in data."
+msgstr "플러그인 데이터를 백업하거나 복원하십시오."
+
+#: admin/franchise_manage_plugin_data.php:30
+msgid ""
+"The data management functionality provided by this plug-in makes no warranty "
+"for the backed up data."
+msgstr ""
+"본 플러그인이 제공하는 데이터관리 기능은 백업된 데이터에 대해 제작사는 어떠"
+"한 보증도 하지않습니다."
+
+#: admin/franchise_manage_plugin_data.php:31
+msgid ""
+"In addition to the backup function provided by the plug-in, please use "
+"another method to safely backup / store."
+msgstr ""
+"플러그인이 제공하는 백업 기능 외에도 안전하게 백업 / 저장하는 다른 방법을 사"
+"용하십시오."
+
+#: admin/franchise_manage_plugin_data.php:36
+msgid "Database version"
+msgstr "데이터베이스 버전"
+
+#: admin/franchise_manage_plugin_data.php:37
+msgid "All saved branches"
+msgstr "저장된 모든 지점"
+
+#: admin/franchise_manage_plugin_data.php:41
+msgid "No database is currently installed."
+msgstr "현재 설치된 데이터베이스가 없습니다."
+
+#: admin/franchise_manage_plugin_data.php:42
+msgid ""
+"You can disable the plug-in and then reactivate the database by installing "
+"it, or you can restore it if you have backed up data."
+msgstr ""
+"플러그인을 비활성화 후 재활성화로 데이터베이스를 설치하거나, 백업된 데이터가 "
+"있다면 복원작업을 할 수 있습니다."
+
+#: admin/franchise_manage_plugin_data.php:54
+msgid "Backup data"
+msgstr "데이터 백업"
+
+#: admin/franchise_manage_plugin_data.php:59
+msgid "Download"
+msgstr "다운로드"
+
+#: admin/franchise_manage_plugin_data.php:60
+msgid "The database will be downloaded in XML file format."
+msgstr "XML형식의 파일로 다운로드 됩니다."
+
+#: admin/franchise_manage_plugin_data.php:66
+msgid "Restore data"
+msgstr "데이터 복원"
+
+#: admin/franchise_manage_plugin_data.php:73
+msgid "Upload file."
+msgstr "업로드"
+
+#: admin/franchise_manage_plugin_data.php:74
+msgid "You must upload it in a downloaded XML file format."
+msgstr "반드시 다운로드한 XML파일 형식으로 업로드하세요."
+
+#: admin/franchise_manage_plugin_data.php:74
+msgid "Please note that Restore will restore all data currently deleted!"
+msgstr "복원은 현재 모든데이터를 삭제 후 복원하므로 주의하십시오!"
+
+#: admin/franchise_manage_plugin_data.php:80
+msgid "Remove database"
+msgstr "테이블 삭제"
+
+#: admin/franchise_manage_plugin_data.php:82
+msgid "Remove it!"
+msgstr "바로 삭제!"
+
+#: admin/franchise_manage_plugin_data.php:83
+msgid ""
+"Use it when you want to clear the plug-in completely, or to initialize it "
+"for reasons of restoration failure, data error, etc."
+msgstr ""
+"플러그인을 완전히 지우거나 복원실패, 데이터의 이상등의 이유로 초기화를 원할"
+"때 사용합니다."
+
+#: admin/franchise_manage_plugin_data.php:102
+#: admin/franchise_manage_plugin_data.php:148
+msgid "Please be careful."
+msgstr "주의하십시오."
+
+#: admin/franchise_manage_plugin_data.php:102
+msgid "Restore all database tables after deletion (all data is lost)."
+msgstr "모든 데이터베이스를 삭제후 업로드합니다."
+
+#: admin/franchise_manage_plugin_data.php:102
+msgid "Do you want to restore your data?"
+msgstr "복구 하시겠습니까?"
+
+#: admin/franchise_manage_plugin_data.php:113
+msgid "Please select a file."
+msgstr "파일을 선택하세요."
+
+#: admin/franchise_manage_plugin_data.php:125
+msgid "Restoration complete"
+msgstr "복구완료"
+
+#: admin/franchise_manage_plugin_data.php:130
+msgid "Only XML files are supported."
+msgstr "XML 파일만 지원합니다."
+
+#: admin/franchise_manage_plugin_data.php:134
+msgid "Failed to save file."
+msgstr "파일저장 실패."
+
+#: admin/franchise_manage_plugin_data.php:134
+msgid "You do not seem to have enough authority."
+msgstr "권한이 충분하지 않은것 같습니다."
+
+#: admin/franchise_manage_plugin_data.php:134
+msgid ""
+"Please check the permissions of the parent directory of the following path."
+msgstr "아래 디렉토리의 부모디렉토리의 권한을 확인하세요."
+
+#: admin/franchise_manage_plugin_data.php:134
+msgid ""
+"Granting the permissions of the wp-content directory to 707 will most likely "
+"be resolved."
+msgstr "wp-content 디렉토리의 권한을 707로 부여하면 대부분 해결됩니다."
+
+#: admin/franchise_manage_plugin_data.php:136
+msgid "Restore failed!!"
+msgstr "복원실패!"
+
+#: admin/franchise_manage_plugin_data.php:141
+msgid "Communication with the server failed."
+msgstr "서버와의 통신에 실패했습니다."
+
+#: admin/franchise_manage_plugin_data.php:148
+msgid "All database tables will be deleted (all data will be lost)."
+msgstr "데이터베이스 테이블을 모두 삭제됩니다.(데이터 모두 소실)"
+
+#: admin/franchise_manage_plugin_data.php:148
+msgid "Do you proceed with database table deletion?"
+msgstr "테이블 삭제 작업을 진행합니까?"
+
+#: admin/franchise_manage_plugin_data.php:159
+msgid "Delete done."
+msgstr "삭제완료!"
+
+#: admin/franchise_manage_plugin_data.php:161
+msgid "Failed to delete"
+msgstr "삭제실패!"
+
+#: lib/franchise.class.php:735
+msgid ""
+"<p> You do not have permission. <br> If you are having the same issue even "
+"though it is licensed, contact the developer of the plugin or the operator.</"
+"p>"
+msgstr ""
+"<p>권한이 충분하지 않습니다.< br>만약 권한이 있다고 판다됨에도 같은 문제가 발"
+"생되다면 운영자 또는 플러그인 개발자에게 문의주십시오.</p>"
+
+#: lib/franchise.class.php:1073 lib/franchise.class.php:1080
+msgid "Naver Map Error"
+msgstr "네이버 지도 에러"
+
+#: lib/franchise.class.php:1073 lib/franchise.class.php:1166
+msgid "API not set"
+msgstr "API 설정안됨"
+
+#: lib/franchise.class.php:1080 lib/franchise.class.php:1174
+msgid "Address not set"
+msgstr "주소 설정안됨."
+
+#: lib/franchise.class.php:1166 lib/franchise.class.php:1174
+msgid "Daum Map Error"
+msgstr "다음지도 에러"
+
+#: templates/blue/list.php:6 templates/default/list.php:6
+msgid "Seoul"
+msgstr "서울"
+
+#: templates/blue/list.php:7 templates/default/list.php:7
+msgid "Incheon"
+msgstr "인천"
+
+#: templates/blue/list.php:8 templates/default/list.php:8
+msgid "Gyeonggi"
+msgstr "경기"
+
+#: templates/blue/list.php:9 templates/default/list.php:9
+msgid "Gangwon"
+msgstr "강원"
+
+#: templates/blue/list.php:10 templates/default/list.php:10
+msgid "Chungbuk"
+msgstr "충북"
+
+#: templates/blue/list.php:11 templates/default/list.php:11
+msgid "Sejong"
+msgstr "세종"
+
+#: templates/blue/list.php:12 templates/default/list.php:12
+msgid "Daejeon"
+msgstr "대전"
+
+#: templates/blue/list.php:13 templates/default/list.php:13
+msgid "Chungnam"
+msgstr "충남"
+
+#: templates/blue/list.php:14 templates/default/list.php:14
+msgid "Jeonbuk"
+msgstr "전북"
+
+#: templates/blue/list.php:15 templates/default/list.php:15
+msgid "Gwangju"
+msgstr "광주"
+
+#: templates/blue/list.php:16 templates/default/list.php:16
+msgid "Jeonnam"
+msgstr "전남"
+
+#: templates/blue/list.php:17 templates/default/list.php:17
+msgid "Gyeongbuk"
+msgstr "경북"
+
+#: templates/blue/list.php:18 templates/default/list.php:18
+msgid "Daegu"
+msgstr "대구"
+
+#: templates/blue/list.php:19 templates/default/list.php:19
+msgid "Ulsan"
+msgstr "울산"
+
+#: templates/blue/list.php:20 templates/default/list.php:20
+msgid "Gyeongnam"
+msgstr "경남"
+
+#: templates/blue/list.php:21 templates/default/list.php:21
+msgid "Jeju"
+msgstr "제주"
+
+#: templates/blue/list.php:22 templates/default/list.php:22
+msgid "Busan"
+msgstr "부산"
+
+#: templates/blue/list.php:63 templates/blue/list.php:73
+#: templates/default/list.php:63 templates/default/list.php:73
+msgid "View all"
+msgstr "전체 보기"
+
+#: templates/blue/list.php:71 templates/default/list.php:71
+msgid "Select region"
+msgstr "지역선택"
+
+#: templates/blue/list.php:72 templates/default/list.php:72
+msgid "Please select a region."
+msgstr "지역을 선택하세요."
+
+#: templates/blue/list.php:81 templates/default/list.php:81
+msgid "Name/Address"
+msgstr "지점명/주소"
+
+#: templates/blue/list.php:83 templates/default/list.php:83
+msgid "Please enter a branch name or address."
+msgstr "지점명 또는 주소를 입력하세요."
+
+#: templates/blue/list.php:114 templates/default/list.php:114
+msgid "List"
+msgstr "목록"
+
+#: templates/blue/list.php:127 templates/default/list.php:127
+msgid "Region"
+msgstr "지역"
+
+#: templates/blue/list.php:186 templates/default/list.php:186
+msgid "See this region"
+msgstr "이 지역 모아보기"
+
+#: templates/blue/list.php:188 templates/default/list.php:188
+msgid "See this category"
+msgstr "이 카테고리 모아보기"
+
+#: templates/blue/list.php:211 templates/default/list.php:211
+msgid "No branches."
+msgstr "지점 없음."
+
+#: templates/blue/list.php:222 templates/default/list.php:222
+msgid "First page"
+msgstr "첫 페이지"
+
+#: templates/blue/list.php:224 templates/default/list.php:224
+msgid "Last page"
+msgstr "마지막 페이지"
+
+#: templates/blue/view.php:35 templates/default/view.php:35
+msgid "Details"
+msgstr "상세정보"
+
+#: templates/blue/view.php:59 templates/default/view.php:59
+msgid "Contacts"
+msgstr "연락처"
+
+#: templates/blue/view.php:62 templates/default/view.php:62
+msgid "Phone"
+msgstr "전화번호"
+
+#: templates/blue/view.php:63 templates/default/view.php:63
+msgid "Mobile"
+msgstr "휴대전화"
+
+#: templates/blue/view.php:64 templates/default/view.php:64
+msgid "Fax."
+msgstr "팩스"
+
+#: templates/blue/view.php:65 templates/default/view.php:65
+msgid "email"
+msgstr "이메일"
+
+#~ msgid "400 (request variable verification)"
+#~ msgstr "400 (요청 변수 확인)"
+
+#~ msgid "401 (authentication failed)"
+#~ msgstr "401 (인증 실패)"
+
+#~ msgid "403 (Unsupported protocol)"
+#~ msgstr "403 (지원하지 않는 프로토콜)"
+
+#~ msgid "404 (no API)"
+#~ msgstr "404 (API 없음)"
+
+#~ msgid "405 (Method not allowed)"
+#~ msgstr "405 (메서드 허용 안함)"
+
+#~ msgid "500 (server error)"
+#~ msgstr "500 (서버 오류)"
+
+#~ msgid "Address convert error"
+#~ msgstr "주소변환 에러"
+
+#~ msgid "Select UID"
+#~ msgstr "UID선택"
+
+#~ msgid "Name of branche"
+#~ msgstr "지점 이름"
+
+#~ msgid "Add branche"
+#~ msgstr "지점추가"
+
+#~ msgid "Etc."
+#~ msgstr "비고"
+
+#~ msgid "You have not set any categories."
+#~ msgstr "카테고리를 설정하지 않았습니다."
+
+#~ msgid "You have not set a branch name."
+#~ msgstr "지점 이름을 설정하지 않았습니다."
+
+#~ msgid "You have not set an address."
+#~ msgstr "주소를 설정하지 않았습니다."
+
+#~ msgid "You have not set a phone number."
+#~ msgstr "전화번호를 설정하지 않았습니다."
+
+#~ msgid "You have not entered any content."
+#~ msgstr "내용을 입력하지 않았습니다."
+
+#~ msgid "You have not set up the Daum map API."
+#~ msgstr "다음지도 API를 설정하지 않았습니다."
+
+#~ msgid "Save Success"
+#~ msgstr "저장성공"
+
+#~ msgid "Do not save - same data"
+#~ msgstr "저장안함 - 동일 데이터"
+
+#~ msgid ""
+#~ "It is a simple descript phrase to be displayed in the search part of the "
+#~ "list page."
+#~ msgstr "목록페이지의 검색 부분에 출력할 간단한 문구입니다."
+
+#~ msgid "Maps API you want to use"
+#~ msgstr "사용할 지도"
+
+#~ msgid "You need to register your app to use the Maps API."
+#~ msgstr "네이버 지도를 사용하기 위해선 애플리케이션 등록이 필요합니다."
+
+#~ msgid "Daum Maps API"
+#~ msgstr "다음지도 API"
+
+#~ msgid ""
+#~ "To use the Maps API, you'll need to generate a key after creating your "
+#~ "app."
+#~ msgstr "다음 지도를 사용하기 위해선 앱 만들기 후 키발급이 필요합니다."
+
+#~ msgid "You have not set up the Naver map API."
+#~ msgstr "네이버지도 API를 설정하지 않았습니다."
+
+#~ msgid "Back up or restore plug-in data."
+#~ msgstr "플러그인 데이터를 백업하거나 복원합니다."
+
+#~ msgid ""
+#~ "In addition to the backup function provided by the plug-in, please use "
+#~ "another method to safely back up / store."
+#~ msgstr ""
+#~ "반드시 플러그인에서 제공하는 백업기능 이외에 추가로 다른 방법을 이용해 안"
+#~ "전하게 백업/보관하십시오."
+
+#~ msgid "All stored branches"
+#~ msgstr "저장된 전체지점"
+
+#~ msgid "Will Download in XML file format."
+#~ msgstr "XML파일 형식으로 다운로드 됩니다."
+
+#~ msgid "You must upload the downloaded file in XML file format."
+#~ msgstr "XML파일 형식으로 다운로드된 파일을 업로드 해야합니다."

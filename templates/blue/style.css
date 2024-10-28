@@ -1,0 +1,158 @@
+.hidden{position:absolute;width:1px;height:1px;clip:rect(1px, 1px, 1px, 1px);}
+.cont_wrap{margin:0 auto;padding:0;width:100%;max-width:1024px;}
+  .map_search_wrap{position:relative;margin:0 auto 20px;padding:30px 392.5px 60px 30px;width:100%;min-height:426px;background:#f5f8ff;box-sizing:border-box;}
+  .map_search_wrap:after{content:"";display:block;clear:both;}
+  /*지도 off*/
+  .map_search_wrap.map_hidden{padding:10px 30px 30px;min-height:initial;}
+  .map_search_wrap.map_hidden .ms_map{display:none;}
+  /*지도 on*/
+    .map_search_wrap .ms_search{display:block;margin:0;padding:0;width:100%;}
+      .map_search_wrap .ms_search .ms_title{margin:20px 0 9px 0;padding:0;font-size:28px;font-weight:900;color:#333;}
+      .map_search_wrap .ms_search .ms_desc{position:relative;margin:0 0 50px 0;padding:0;font-size:13px;font-weight:bold;color:#454545}
+      .map_search_wrap .ms_search .location_search_wrap{margin:0;padding:24px 17px 20px;width:100%;border:1px solid #d1d1d1;border-radius:3px;background:#fff;box-shadow:0 2px 2px rgba(0,0,0,0.1);box-sizing:border-box;}
+        .map_search_wrap .ms_search .location_search_wrap .ls_fieldset{position:relative;margin:0 0 10px 0;padding:0 0 0 135px;height:43px;line-height:43px;}
+          .map_search_wrap .ms_search .location_search_wrap .ls_fieldset .ls_title{position:absolute;top:0;left:0;margin:0;padding:0;width:135px;height:43px;line-height:43px !important;font-size:16px;font-weight:bold;color:#666;}
+            .map_search_wrap .ms_search .location_search_wrap .ls_fieldset select{display:block;margin:0;padding:0 20px;width:100%;max-width:178px;height:100%;border:1px solid #d1d1d1;background:url(./images/sel_arrow.gif) no-repeat 90% 50%;border-radius:3px;font-size:14px;color:#686868;box-sizing:border-box;-webkit-appearance: none;-moz-appearance: none;-ms-appearance: none;appearance: none;}
+            .map_search_wrap .ms_search .location_search_wrap .ls_fieldset select::-ms-expand {display: none;}
+            .map_search_wrap .ms_search .location_search_wrap .ls_fieldset .ls_input{display:block;margin:0;padding:0;width:100%;height:100%;border:1px solid #d1d1d1;border-radius:3px;font-size:14px;box-sizing:border-box;overflow:hidden;}
+              .map_search_wrap .ms_search .location_search_wrap .ls_fieldset .ls_input input{display:block;margin:0;padding:0 60px 0 20px;width:100%;height:100%;border:none;font-size:14px;color:#666;box-sizing:border-box;}
+              .map_search_wrap .ms_search .location_search_wrap .ls_fieldset .ls_input .ls_btn{position:absolute;top:0;right:0;margin:0;padding:0;width:60px;height:100%;border:none;background:url(./images/search_icon.gif) no-repeat 50% 50%;cursor:pointer;overflow:hidden;text-indent:-999px;}
+    .map_search_wrap .ms_map{position:absolute;top:10px;right:30px;margin:0;padding:0;width:342px;}
+      .map_search_wrap .ms_map .map{position:relative;margin:0;padding:0;}
+        .map_search_wrap .ms_map .map .map_img{margin:0 auto;display:block !important;max-width:100%;height:auto;}
+        .map_search_wrap .ms_map .map .area_part{position:absolute;top:0;left:0;width:100%;height:100%;}
+          .map_search_wrap .ms_map .map .area_part .area{position:absolute;display:block;padding:0 10px;height:16px;line-height:16px;z-index:1;}
+          .map_search_wrap .ms_map .map .area_part .area:hover a, .map_search_wrap .ms_map .map .area_part .area.active a{font-weight:bold;color:#fff;}
+          .map_search_wrap .ms_map .map .area_part .area:hover:after, .map_search_wrap .ms_map .map .area_part .area.active:after{display:block;}
+          .map_search_wrap .ms_map .map .area_part .area:hover span.bubble, .map_search_wrap .ms_map .map .area_part .area.active span.bubble{display:block;}
+          .map_search_wrap .ms_map .map .area_part .area:after{position:absolute;content:"";display:none;;z-index:-1;}
+          .map_search_wrap .ms_map .map .area_part .area a{font-size:11px;color:#999999;text-decoration:none;}
+          .map_search_wrap .ms_map .map .area_part .area span.bubble{display:none;position:absolute;top:100%;left:50%;margin:4px 0 0 -20px;isplay:block;width:40px;height:15px;line-height:15px;text-align:center;background:#ff9838;font-size:11px;color:#fff;}
+          .map_search_wrap .ms_map .map .area_part .area span.bubble:after{position:absolute;bottom:100%;left:50%;margin:0 0 0 -4px;content:"";display:block;border-bottom:4px solid #ff9838;border-right:4px solid transparent;border-left:4px solid transparent;}
+          .map_search_wrap .ms_map .map .area_part .area.incheon{top:76px;left:68px;}
+          .map_search_wrap .ms_map .map .area_part .area.incheon:after{top:-10px;left:0px;width:52px;height:46px;background:url(../../images/incheon.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .area.seoul{top:85px;left:110px;z-index:2;}
+          .map_search_wrap .ms_map .map .area_part .area.seoul:after{top:-3px;left:-1px;width:39px;height:27px;background:url(../../images/seoul.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .area.gyeonggi{top:108px;left:112px;}
+          .map_search_wrap .ms_map .map .area_part .area.gyeonggi:after{top:-72px;left:-14px;width:85px;height:111px;background:url(../../images/gyeonggi.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .area.gangwon{top:61px;left:185px;}
+          .map_search_wrap .ms_map .map .area_part .area.gangwon:after{top:-61px;left:-54px;width:146px;height:136px;background:url(../../images/gangwon.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .area.chungbuk{top:131px;left:153px;z-index:2;}
+          .map_search_wrap .ms_map .map .area_part .area.chungbuk:after{top:-13px;left:-8px;width:90px;height:97px;background:url(../../images/chungbuk.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .area.sejong{top:152px;left:115px;z-index:2;}
+          .map_search_wrap .ms_map .map .area_part .area.sejong:after{top:-3px;left:8px;width:27px;height:29px;background:url(../../images/sejong.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .area.daejeon{top:170px;left:121px;z-index:2;}
+          .map_search_wrap .ms_map .map .area_part .area.daejeon:after{top:-7px;left:8px;width:28px;height:34px;background:url(../../images/daejeon.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .area.chungnam{top:147px;left:68px;}
+          .map_search_wrap .ms_map .map .area_part .area.chungnam:after{top:-16px;left:-3px;width:105px;height:89px;background:url(../../images/chungnam.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .area.jeonbuk{top:227px;left:102px;}
+          .map_search_wrap .ms_map .map .area_part .area.jeonbuk:after{top:-27px;left:-19px;width:104px;height:73px;background:url(../../images/jeonbuk.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .area.gwangju{top:268px;left:99px;z-index:2;}
+          .map_search_wrap .ms_map .map .area_part .area.gwangju:after{top:0px;left:6px;width:31px;height:24px;background:url(../../images/gwangju.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .area.jeonnam{top:305px;left:83px;}
+          .map_search_wrap .ms_map .map .area_part .area.jeonnam:after{top:-53px;left:-37px;width:140px;height:111px;background:url(../../images/jeonnam.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .area.gyeongbuk{top:173px;left:206px;}
+          .map_search_wrap .ms_map .map .area_part .area.gyeongbuk:after{top:-66px;left:-28px;width:118px;height:142px;background:url(../../images/gyeongbuk.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .area.daegu{top:219px;left:204px;}
+          .map_search_wrap .ms_map .map .area_part .area.daegu:after{top:-10px;left:0px;width:38px;height:36px;background:url(../../images/daegu.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .area.ulsan{top:241px;left:251px;}
+          .map_search_wrap .ms_map .map .area_part .area.ulsan:after{top:-9px;left:2px;width:38px;height:39px;background:url(../../images/ulsan.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .gyeongnam{top:259px;left:177px;}
+          .map_search_wrap .ms_map .map .area_part .area.gyeongnam:after{top:-38px;left:-13px;width:106px;height:101px;background:url(../../images/gyeongnam.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .jeju{top:381px;left:75px;}
+          .map_search_wrap .ms_map .map .area_part .area.jeju:after{top:-16px;left:-9px;width:65px;height:42px;background:url(../../images/jeju.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .busan{top:268px;left:233px;}
+          .map_search_wrap .ms_map .map .area_part .area.busan:after{top:-9px;left:-13px;width:65px;height:42px;background:url(../../images/busan.png) no-repeat;}
+          .map_search_wrap .ms_map .map .area_part .area.foreign{top:34px;right:8px;}
+          .map_search_wrap .ms_map .map .area_part .area.foreign a{font-size:13px;font-weight:bold;color:#0557a9;}
+          .map_search_wrap .ms_map .map .area_part .area.foreign span.bubble{display:block;}
+
+  .map_list_wrap{margin:0 auto;padding:0;width:100%;}
+    .map_list_wrap .category_wrap{margin:0;padding:0;}
+		.map_list_wrap .category_wrap::after{display:block;clear:both;content:'';}
+      .map_list_wrap .category_wrap select{float:left;display:block;margin:0 0 20px 0;padding:0 20px 0 15px;width:110px;height:30px;border:1px solid #d1d1d1;background:url(./images/sel_arrow.gif) no-repeat 90% 50%;border-radius:3px;font-size:14px;font-weight:bold;color:#686868;box-sizing:border-box;-webkit-appearance: none;-moz-appearance: none;-ms-appearance: none;appearance: none;}
+      .map_list_wrap .category_wrap select::-ms-expand {display: none;}
+			.map_list_wrap .category_wrap .totalList {float:right;line-height:30px;}
+
+    .map_list_wrap .map_list{margin:0 0 5px 0;padding:0;width:100%;border-collapse:collapse;border-spacing:0;border-top:2px solid #0068b7;border-bottom:1px solid #d1d1d1;}
+      .map_list_wrap .map_list thead tr th{margin:0;padding:0;height:50px;border-bottom:1px solid #0068b7;background:#f1f5fd;font-size:14px;font-weight:900;color:#333;text-align:center;}
+      .map_list_wrap .map_list tbody tr td{margin:0;padding:15px 10px;font-size:13px;color:#666;text-align:center;line-height:1.5}
+      .map_list_wrap .map_list tbody tr td.noResult {padding:50px 10px}
+        .map_list_wrap .map_list tbody tr td a{font-size:13px;color:#666;text-decoration:none;}
+        .map_list_wrap .map_list tbody tr td .mobile_tel{display:none;}
+        .map_list_wrap .map_list tbody tr td a:hover{color:#333;}
+      .map_list_wrap .map_list tbody tr:nth-child(even) td{background:#f8faff;}
+    .map_list_wrap .watermark{display:block;margin:0 0 10px 0;padding:0;font-size:12px;color:#999;}
+      .map_list_wrap .watermark i{font-style:normal;text-decoration:underline;}
+
+    .map_list_wrap .franchise-navigation.paging-navigation .pagination{ margin:0;padding:0;width:100%;text-align:center;}
+      .map_list_wrap .pagination .page-numbers{display:inline-block;margin:0;width:30px;height:30px;line-height:30px;border:1px solid #d1d1d1;border-radius:3px;font-size:14px;color:#666;vertical-align:middle;text-decoration:none;cursor:pointer;}
+      .map_list_wrap .pagination .page-numbers.prev{margin-right:5px;}
+      .map_list_wrap .pagination .page-numbers.next{margin-left:5px;}
+      .map_list_wrap .pagination .page-numbers.current{font-weight:bold;background: linear-gradient(#0067b5, #074684);border:none;color:#fff}
+
+@media screen and (max-width:1024px){
+  .map_search_wrap{padding:0;width:95%;background:none;min-height:initial;}
+  .map_search_wrap .ms_search{padding:0;}
+  .map_search_wrap .ms_search .ms_title{margin:0 0 30px 0;}
+  .map_search_wrap .ms_search .ms_desc{display:none;}
+  .map_search_wrap .ms_search .location_search_wrap{padding:24px 0 20px 0;border-radius:0;border-right:none;border-left:none;box-shadow:none;}
+  .map_search_wrap .ms_map{display:none;}
+  .map_list_wrap .map_list colgroup col:nth-child(1){width:16% !important}
+  /*.map_list_wrap .map_list colgroup col:nth-child(2){width:20% !important}
+  .map_list_wrap .map_list colgroup col:nth-child(3){width:69% !important}*/
+  .map_list_wrap .map_list thead tr th:nth-child(4),
+  .map_list_wrap .map_list thead tr th:nth-child(5),
+  .map_list_wrap .map_list thead tr th:nth-child(6){display:none;}
+  .map_list_wrap .map_list tbody tr td:nth-child(4),
+  .map_list_wrap .map_list tbody tr td:nth-child(5),
+  .map_list_wrap .map_list tbody tr td:nth-child(6){display:none;}
+  .map_list_wrap .map_list tbody tr td:nth-child(3){text-align:left;padding-right:55px;}
+  .map_list_wrap .map_list tbody tr td{position:relative;}
+  .map_list_wrap .map_list tbody tr td .mobile_tel{display:block;position:absolute;top:50%;right:10px;margin:-19.5px 0 0 0;width:39px;height:39px;background:url(./images/tel_icon.png) no-repeat 50% 50%;overflow:hidden;text-indent:-9999px;}
+  .map_list_wrap{width:95%;}
+}
+@media screen and (max-width:500px){
+  .map_search_wrap .ms_search .location_search_wrap{padding:15px 0 9px}
+  .map_search_wrap .ms_search .location_search_wrap .ls_fieldset{margin:0 0 10px 0;padding:0 0 0 114px;height:35px;line-height:35px;}
+  .map_search_wrap .ms_search .location_search_wrap .ls_fieldset .ls_title{width:114px;height:35px;line-height:35px !important;font-size:14px;}
+  .map_search_wrap .ms_search .location_search_wrap .ls_fieldset select{padding:0 5px;}
+  .map_search_wrap .ms_search .location_search_wrap .ls_fieldset .ls_input input{padding:0 40px 0 8px}
+  .map_search_wrap .ms_search .location_search_wrap .ls_fieldset .ls_input .ls_btn{width:40px;}
+}
+
+/*view*/
+.map_view_wrap{margin:0 auto;padding:30px 0 0 0;width:100%;max-width:1024px;}
+  .map_view_wrap .p_breadcrumb{display:block;margin:0 0 15px 0;font-size:13px;font-weight:bold;color:#555;}
+  .map_view_wrap .mv_title{margin:0 0 10px 0;padding:0;font-size:32px;font-weight:900;color:#333;}
+  .map_view_wrap .mv_desc{margin:0 0 30px 0;padding:0;font-size:14px;font-weight:bold;color:#333;}
+  .map_view_wrap .map_view{margin:0 0 40px 0;padding:0;width:100%;background:#999;overflow:hidden;}
+    .map_view_wrap .map_view img{width:100%;height:auto;}
+  .map_view_wrap .map_detail_table{margin:0;padding:0;width:100%;border-collapse:collapse;border-spacing:0;border-top:2px solid #0068b7;}
+    .map_view_wrap .map_detail_table thead tr th{margin:0;padding:0 10px;height:44px;padding:2px 0;border-bottom:1px solid #fff;background:#f1f5fd;font-size:14px;font-weight:900;color:#333;box-sizing:border-box;white-space:nowrap;}
+    .map_view_wrap .map_detail_table thead tr td{margin:0;padding:2px 20px;height:44px;border-bottom:1px solid #f1f5fd;font-size:14px;color:#666;text-align:left;line-height:1.4}
+    .map_view_wrap .map_detail_table thead tr:last-child th,
+    .map_view_wrap .map_detail_table thead tr:last-child td{border-bottom:1px solid #d1d1d1;}
+    .map_view_wrap .map_detail_table tbody tr td{margin:0;padding:10px 0;border-bottom:1px solid #d1d1d1;}
+      .map_view_wrap .map_detail_table tbody tr td .td_content{margin:15px 0;padding:10px;width:100%;border:1px solid #dedcdf;line-height:20px;font-size:14px;color:#666;}
+        .map_view_wrap .map_detail_table tbody tr td .td_content img{max-width:100%;width:100%;height:auto;}
+      .map_view_wrap .map_detail_table tbody tr td .td_sns{float:right;}
+        .map_view_wrap .map_detail_table tbody tr td .td_sns a{display:inline-block;margin-left:5px;text-decoration:none;cursor:pointer;}
+    .map_view_wrap .map_detail_table tfoot tr td{margin:0;padding:0;height:60px;}
+      .map_view_wrap .map_detail_table tfoot tr td .watermark{font-size:12px;color:#999;}
+        .map_view_wrap .map_detail_table tfoot tr td .watermark i{font-style:normal;border-bottom:1px solid #999;}
+      .map_view_wrap .map_detail_table tfoot tr td .list_btn{display:block;float:right;padding:0 20px;height:32px;line-height:32px;border-radius:3px;background:linear-gradient(#0164b1 ,#074684);font-size:14px;font-weight:bold;color:#fff;text-decoration:none;text-align:center;cursor:pointer;}
+
+@media screen and (max-width:1024px){
+  .map_view_wrap{width:95%;}
+  .map_view_wrap .mv_title{margin:0 0 20px 0;}
+  .map_view_wrap .mv_desc{display:none;}
+
+	.map_view_wrap .map_detail_table thead tr td.phoneList {padding:10px 20px}
+		.map_view_wrap .map_detail_table thead tr td.phoneList span {display:block;line-height:1;}
+}
+@media screen and (max-width:768px){
+  .map_view_wrap .p_breadcrumb{margin:0 0 10px 0;font-size:12px;}
+  .map_view_wrap .mv_title{font-size:24px;}
+  .map_view_wrap .map_detail_table thead tr td{font-size:13px;}
+}
